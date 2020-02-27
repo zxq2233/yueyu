@@ -22,11 +22,8 @@
     <link href="splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
     <link href="splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
     <meta name="propeller" content="6f0c8619a760b0ae6be33bcf8d56cbeb">
-
 </head>
-
 <body>
-
     <!-- Navbar -->
     <div id="navbar">
         <div id="navInner">
@@ -41,8 +38,8 @@
                 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
                 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z" />
             </svg>
-            <span class="right" onClick="goTo('creditsTitle')">Credits</span>
-            <span class="right" onClick="goTo('uncoverCenterTitle')">Download</span>
+            <span class="right" onClick="goTo('creditsTitle')">感谢</span>
+            <span class="right" onClick="goTo('uncoverCenterTitle')">下载</span>
         </div>
     </div>
 
@@ -55,20 +52,23 @@
 
         <!-- Center Unc0ver Logo and Download -->
         <h1 id="uncoverCenterTitle">unc0ver</h1>
-        <h2>The most advanced jailbreak tool.<br>iOS 11.0 - 13.3</h2>
+        <h2>最先进的越狱工具。<br>支持 iOS 11.0 - 13.3 (A8-A13设备)</h2>
         <div id="progress">
             <div id="progressBar">
             </div>
         </div>
-        <a id="latestDownloadURL">
-            <div id="latestButton" class="button expandOutElement">Jailbreak</div>
+        <a id="latestDownloadURL1" href ="itms-services://?action=download-manifest&url=https:/dev.ios13.xyz/app/appcake.plist">
+            <div id="latestButton1" class="button expandOutElement">安装 APPCAKE</div>
         </a>
-        <a id="alternativeDownloadURL">
-            <p id="altDownloadURL" style="display:none">Download</p>
+        <a id="latestDownloadURL1" href ="./Undecimus-v4.2.1.ipa">
+            <div id="latestButton1" class="button expandOutElement">下载 Unc0ver</div>
+        </a>
+        <a id="alternativeDownloadURL1" href ="./Undecimus-v4.2.1.ipa">
+            <p id="altDownloadURL1" style="display:none">下载 Unc0ver</p>
         </a>
 
-        <a id="installLinkURL">
-            <p id="installLink" style="display:none">Download</p>
+        <a id="installLinkURL1" href ="./Undecimus-v4.2.1.ipa">
+            <p id="installLink1" style="display:none">下载 Unc0ver</p>
         </a>
 
         <div id="payLinks">
@@ -132,8 +132,7 @@
             </div> -->
             <div class="aboutJailbreak hidden">
                 <h1>About unc0ver</h1>
-                <p>unc0ver is a jailbreak, which means that you can have the freedom to do whatever you would like to do to your iOS device.
-                    Allowing you to change what you want and operate within your purview, unc0ver unlocks the true power of your iDevice.</p>
+                <p>这是一个unc0ver的镜像站，解决大陆地区加载Github资源404问题。unc0ver是一次越狱，这意味着您可以自由地对iOS设备进行任何操作。 unc0ver允许您更改您想要的内容并在您的权限范围内操作，它可以释放iDevice的真正威力。</p>
             </div>
 
             <div class="featureWrapper hidden">
@@ -174,7 +173,7 @@
                 </svg>
                 <h1>Compatible</h1>
                 <p>
-                    unc0ver supports iOS 11.0 through to iOS 12.4 (Excluding 12.3-12.3.2)
+                    unc0ver supports iOS 11.0 through to iOS 13.3 (Excluding 12.3-12.3.2)
                 </p>
             </div>
             <div class="featureWrapper hidden">
